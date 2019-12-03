@@ -1,0 +1,65 @@
+[
+    {
+        "email" : "tlcarrio@oakland.edu",
+        "firstName": "Tom",
+        "lastName": "Carrio",
+        "password": "testpass"
+    },
+    {
+        "email" : "ddyla@oakland.edu",
+        "firstName": "Daniel",
+        "lastName": "Dyla",
+        "password": "testpass"
+    },
+    {
+        "email" : "cwehlert@oakland.edu",
+        "firstName": "Chase",
+        "lastName": "Ehlert",
+        "password": "testpass"
+    },
+    {
+        "email" : "mattli@oakland.edu",
+        "firstName": "Matt",
+        "lastName": "Li",
+        "password": "testpass",
+        "codeIndex": 0 
+    },
+    {
+        "email" : "jadams@msu.edu",
+        "firstName": "John",
+        "lastName": "Adams",
+        "password": "testpass",
+        "codeIndex": 1
+    },
+    {
+        "email" : "jdoe1@msu.edu",
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "password": "testpass",
+        "codeIndex": 2
+    },
+    {
+        "email" : "bgoodman@msu.edu",
+        "firstName": "Bryan",
+        "lastName": "Goodman",
+        "password": "testpass"
+    },
+    {
+        "email" : "tcarri1516@cmich.edu",
+        "firstName": "Thomas",
+        "lastName": "Carrio",
+        "password": "testpass"
+    },
+    {
+        "email" : "lschwang@cmich.edu",
+        "firstName": "Lee",
+        "lastName": "Schwanger",
+        "password": "testpass"
+    },
+    {
+        "email" : "fmobodos@cmich.edu",
+        "firstName": "Fark",
+        "lastName": "Mobodos",
+        "password": "testpass"
+    }
+]

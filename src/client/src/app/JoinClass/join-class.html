@@ -1,0 +1,24 @@
+<body class="background-image">
+        <md-card class="card-style" >
+            <div *ngIf="isCreated">
+                 <button mat-button class="button-style" mat-raised-button routerLink="/user-console" routerLinkActive="active">
+                     Class Created - Go To User Controls</button>
+            </div>
+            <div *ngIf="!isCreated">
+                 <md-card-title class="input-style">
+                     <h2>Join a Class</h2>
+                 </md-card-title>
+                 <div>
+                 <md-card-content>
+                         <mat-form-field class="input-style">
+                             <input type="text" [(ngModel)]="inviteCode" matInput placeholder="Invitation Code" />
+                         </mat-form-field>
+                 </md-card-content>
+             </div>
+                 <md-card-actions>
+                     <button mat-button class="button-style" (click)=Join() mat-raised-button>Join</button>
+                     <button mat-button class="button-style" mat-raised-button routerLink="/user-console" routerLinkActive="active">Back</button>
+                 </md-card-actions>
+             </div>
+             </md-card>
+     </body>
