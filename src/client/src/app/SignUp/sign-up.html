@@ -1,0 +1,33 @@
+<body class="background-image">
+   <md-card class="card-style" >
+       <div *ngIf="registrationSuccess">
+            <button mat-button class="button-style" mat-raised-button routerLink="/login-page" routerLinkActive="active">
+                Registration Successful - Go to Login</button>
+       </div>
+       <div *ngIf="!registrationSuccess">
+            <md-card-title class="input-style">
+                <h2>Welcome</h2>
+            </md-card-title>
+            <div>
+            <md-card-content>
+                    <mat-form-field class="input-style">
+                        <input type="email" [(ngModel)]="email" matInput placeholder="Email" />
+                    </mat-form-field>
+                    <mat-form-field class="input-style">
+                        <input type="password" [(ngModel)]="password" matInput placeholder="Password" />
+                    </mat-form-field>
+                    <mat-form-field class="input-style">
+                        <input type="text" [(ngModel)]="firstName" matInput placeholder="First Name" />
+                    </mat-form-field>
+                    <mat-form-field class="input-style">
+                        <input type="text" [(ngModel)]="lastName" matInput placeholder="Last Name" />
+                    </mat-form-field>
+            </md-card-content>
+        </div>
+            <md-card-actions>
+                <button mat-button class="button-style" (click)=Register() md-raised-button>Register</button>
+                <button mat-button class="button-style" md-raised-button routerLink="/home" routerLinkActive="active">Back</button>
+            </md-card-actions>
+        </div>
+        </md-card>
+</body>
